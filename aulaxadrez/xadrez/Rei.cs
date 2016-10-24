@@ -4,7 +4,6 @@ namespace xadrez
 {
     class Rei : Peca
     {
-
         private PartidaDeXadrez partida;
 
         public Rei(Tabuleiro tab, cor cor, PartidaDeXadrez partida) : base(tab, cor)
@@ -95,7 +94,6 @@ namespace xadrez
                     }
                 }
             }
-
 
             return mat;
         }
